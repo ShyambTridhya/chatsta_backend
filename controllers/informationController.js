@@ -1,5 +1,5 @@
 const catchAsyncErrors = require('../middlerwere/catchAsyncError');
-const ErrorHandler = require('../utils/ErrorHandler');
+const ErrorHandler = require('../utils/errorHandler');
 const About = require('../models/informativeModel');
 
 //Create All Informative Page

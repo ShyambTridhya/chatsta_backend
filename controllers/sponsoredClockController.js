@@ -1,6 +1,6 @@
 const Clock = require('../models/sponsoredClockModel');
 const catchAsyncErrors = require('../middlerwere/catchAsyncError');
-const ErrorHandler = require('../utils/ErrorHandler');
+const ErrorHandler = require('../utils/errorHandler');
 
 //Create new sponsored Clock
 exports.createSponsoredClock = catchAsyncErrors(async (req, res, next) => {
