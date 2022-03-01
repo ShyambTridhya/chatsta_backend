@@ -18,9 +18,9 @@ app.use(cors());
 app.use(bodyParser.urlencoded({extended: true}));
 
 //Routes Imports
-const user = require('./routes/UserRoute');
-const clock = require('./routes/SponsoredClockRoutes');
-const information = require('./routes/InformativeRoute');
+const user = require('./routes/userRoute');
+const clock = require('./routes/sponsoredClockRoutes');
+const information = require('./routes/informativeRoute');
 
 app.use('/api/v1', user);
 app.use('/api/v1', clock);
